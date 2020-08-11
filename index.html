@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Investment Calculator</title>
+    <link rel="stylesheet" href="./style.css" >
+  </head>
+
+  <body>
+    <div class="heading">
+      <h2 class='title'>Compound Interest Calculator</h2>
+    </div>
+<!--form starts-->
+      <div class='form'>
+        <form action="input" method='post'>
+          <!--labels and inputs-->
+          <div>
+            <label for="initial-investment">Initial investment</label>
+            <input type="number" name="initial-investment" id="initial-investment">
+          </div>
+          <div>
+            <label for="average-annual-return">Average annual return</label>
+            <input type="number" name="average-annual-return" id="average-annual-return">
+          </div>
+          <div>
+            <label for="number-of-years">Number of years</label>
+            <input type="number" name="number-of-years" id="number-of-years" max="100">
+          </div>
+ <!--buttons-->         
+          <div id='buttons'>
+            <input type="button" id="calculate" value="Calculate">
+            <input type="button" id="reset" value="Reset">
+          </div>
+<!--message for total $-->
+          <div>            
+            <p id='message'></p>
+          </div>
+        </form>
+<!--form ends-->
+      </div>
+  </body>
+  <script src='./script.js'></script>
+</html>

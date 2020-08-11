@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+    background: rgb(42, 188, 199);
+    font-family: arial;
+  }
+
+form {
+  
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+
+div.form {
+  display: block;
+  text-align: center;
+}
+
+#buttons {
+  max-width: 50px;
+  display: grid;
+  text-align: center;
+}
+
+.heading {
+    text-align: center;
+  }
+  
+h2 {
+    font-family: arial;
+    color: rgb(44, 53, 57);
+  }
+
+input {
+    margin: 10px;
+  }
+
+ p {
+   display: none;
+ }
